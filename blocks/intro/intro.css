@@ -1,0 +1,16 @@
+.intro {
+  color: #ffffff;
+  margin: 92px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 1023px) {
+    .intro {
+        margin: 88px 0;
+      }
+}
+@media screen and (max-width: 719px) {
+    .intro {
+        margin: 64px 0;
+      }
+}
