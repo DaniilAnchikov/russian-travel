@@ -2,28 +2,28 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 245px 312px;
+  justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
+  min-height: 740px;
   position: relative;
   z-index: 0;
-  overflow: hidden;
   color: #FFFFFF;
   text-decoration: none;
 }
 @media screen and (max-width: 1200px) {
     .cover__link {
-        padding: 195px 232px;
+      min-height: 640px;
       }
 }
 @media screen and (max-width: 900px) {
     .cover__link {
-        padding: 115px 104px;
+      min-height: 480px;
       }
 }
 @media screen and (max-width: 450px) {
     .cover__link {
-        padding: 33px 16px;
+      min-height: 200px;
       }
 }
 .cover__link:before {

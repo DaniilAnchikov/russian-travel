@@ -1,14 +1,14 @@
 .place-grid__url-heading {
+  text-transform: uppercase;
   font-weight: 400;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 170%;
   letter-spacing: 2px;
   color: #AAAAAA;
   margin: 0 0 12px;
 }
 @media screen and (max-width: 1023px) {
     .place-grid__url-heading {
-        font-size: 12px;
         line-height: 12px;
       }
 }
