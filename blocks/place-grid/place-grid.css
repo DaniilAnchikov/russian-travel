@@ -16,7 +16,7 @@
         gap: 46px 28px;
       }
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 767px) {
     .place-grid {
         grid-template-columns: minmax(288px, 1fr);
         grid-template-areas: 

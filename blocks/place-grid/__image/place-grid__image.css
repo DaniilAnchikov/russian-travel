@@ -12,11 +12,12 @@
         max-width: 340px;
       }
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 767px) {
     .place-grid__image {
         max-height: 320px;
         max-width: 320px;
         justify-self: center;
+        width: 100%;
       }
 }
 @media screen and (max-width: 319px) {

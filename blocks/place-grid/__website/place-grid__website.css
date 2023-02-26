@@ -4,8 +4,13 @@
   flex-direction: column;
   justify-content: end;
 }
-@media screen and (max-width: 872px) {
+@media screen and (max-width: 976px) {
     .place-grid__website {
         max-width: 352px;
       }
+}
+@media screen and (max-width: 352px) {
+  .place-grid__website {
+      margin: 0 16px;
+    }
 }
