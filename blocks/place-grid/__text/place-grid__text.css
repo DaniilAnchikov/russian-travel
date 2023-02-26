@@ -17,16 +17,11 @@
 }
 @media screen and (max-width: 767px) {
     .place-grid__text {
-        min-width: 288px;
+        min-width: 284px;
       }
 }
 @media screen and (max-width: 352px) {
   .place-grid__text {
       margin: 0 16px;
-    }
-}
-@media screen and (max-width: 319px) {
-  .place-grid__text {
-    min-width: 0;
     }
 }
